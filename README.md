@@ -17,7 +17,7 @@ pipenv shell
 psql -h localhost
 CREATE DATABASE avbase_db;
 CREATE ROLE localuser WITH LOGIN PASSWORD 'localpassword';
-GRANT ALL PRIVILEGES ON DATABASE avbase_db TO root;
+GRANT ALL PRIVILEGES ON DATABASE avbase_db TO localuser;
 \q
 ```
 
