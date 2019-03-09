@@ -1,5 +1,6 @@
 # avbase
 
+## Local set up
 
 1. Checkout the repo
 
@@ -27,3 +28,7 @@ export SECRET_KEY='secret_key'
 export EMAIL_PASS=''
 ```
 
+## Committing changes
+
+
+## Deploying to Heroku
