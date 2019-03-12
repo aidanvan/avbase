@@ -1,1 +1,1 @@
-web: gunicorn avbase_project.wsgi
+web: gunicorn base_project.wsgi
